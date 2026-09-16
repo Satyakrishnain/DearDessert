@@ -1,2 +1,2 @@
 # DearDessert
-Home Baking
+Home Baked with Love 
