@@ -1009,7 +1009,7 @@
   document.getElementById("sendOrder").addEventListener("click", function(){
     if(cartCount() === 0) return;
     const msg = buildWhatsAppMessage();
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, "_blank", "noopener");
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`, "Thank you for choosing Dear Dessert! Your home-baked, mouth-watering treats are coming your way with love 💕", "opener");
   });
 
   document.getElementById("menuToggle").addEventListener("click", function(){
